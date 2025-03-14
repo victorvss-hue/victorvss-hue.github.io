@@ -60,3 +60,7 @@ footer {
     font-size: 0.9rem;
     color: #6c757d
 }
+.img-personalizada {
+    width: 306px;  /* Ajuste conforme necessário */
+    height: auto;  /* Mantém a proporção */
+}
