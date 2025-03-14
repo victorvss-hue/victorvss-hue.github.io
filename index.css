@@ -61,6 +61,10 @@ footer {
     color: #6c757d
 }
 .img-personalizada {
-    width: 306px;  /* Ajuste conforme necessário */
-    height: auto;  /* Mantém a proporção */
+    width: 100%;
+    max-width: 600px;
+    height: auto;  
+    display: block;  
+    margin: 20px auto;  
 }
+
