@@ -67,4 +67,69 @@ footer {
     display: block;  
     margin: 20px auto;  
 }
+.menu {
+  position: relative;
+  display: inline-block;
+}
 
+.menu-button {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-dash {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+
+.menu-options {
+  display: none; /* Oculta o menu inicialmente */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  min-width: 150px;
+}
+
+.menu-options ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-options li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-options li:last-child {
+  border-bottom: none;
+}
+
+.menu-options a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  transition: background 0.3s;
+}
+
+.menu-options a:hover {
+  background: #f1f1f1;
+}
+
+/* Mostrar o menu quando a classe 'active' for adicionada */
+.menu.active .menu-options {
+  display: block;
+}
