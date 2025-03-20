@@ -21,7 +21,7 @@ header p {
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
-  color: black; /* Deixa o nome em preto */
+  color: black; 
 }
 
 header nav a {
@@ -122,11 +122,11 @@ footer p {
   margin: 0;
 }
 .whatsapp-box {
-    background-color: #f8f9fa; /* Mesma cor de fundo */
-    padding: 15px; /* Mesmo espaçamento interno */
-    margin-bottom: 10px; /* Mesma margem inferior */
-    border: 1px solid #ddd; /* Mesma borda */
-    border-radius: 5px; /* Mesmo arredondamento de borda */
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
     display: flex;
     align-items: center;
     gap: 10px;
@@ -148,7 +148,7 @@ footer p {
     text-decoration: underline;
 }
 
-/* Estilo para a caixa de email (adicionado para referência) */
+
 .email-box {
     background-color: #f8f9fa;
     padding: 15px;
