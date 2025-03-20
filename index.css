@@ -139,6 +139,10 @@ footer {
   width: 220px;
 }
 .text-center {
-  text-align: center;
-  
+  text-align: left;
+  text-align: justify;
+  text-align: right;
+  line-height: 1.5rem;
+  font-weight: normal;
+  font-size: 12px;
 }
